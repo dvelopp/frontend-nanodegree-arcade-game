@@ -71,9 +71,6 @@ Player.prototype.update = function () {
 Player.prototype.render = function () {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
-Player.prototype.render = function () {
-    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-};
 Player.prototype.handleInput = function (key) {
     this.currentMove = key;
 };
