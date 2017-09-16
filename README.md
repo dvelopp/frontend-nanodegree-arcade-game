@@ -1,3 +1,5 @@
+My custom implementation of the course task.
+
 frontend-nanodegree-arcade-game
 ===============================
 
